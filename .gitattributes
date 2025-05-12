@@ -87,5 +87,6 @@
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
 *.apk filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+*.srcaar filter=lfs diff=lfs merge=lfs -text
 
 LightingData.asset filter=lfs diff=lfs merge=lfs -text
