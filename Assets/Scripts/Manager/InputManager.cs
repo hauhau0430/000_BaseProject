@@ -17,8 +17,13 @@ public static class InputManager
         return Input.GetMouseButtonUp(0);
     }
 
-    public static Vector2 GetMousePosition()
+    public static Vector2? GetTouchPosition()
     {
-        return Input.mousePosition;
+        if (0 < Input.touchCount)
+        {
+            return Input.mousePosition;
+        }
+
+        return null;
     }
 }
